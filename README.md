@@ -1,45 +1,126 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# ACE Engineering : Automation Control Electrical
+*Professional engineering services for all your industrial requirements.
 
-Welcome STarrant,
+![hero-image](/wireframes/picture.jpg)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+## Contents
+---
+* UX
+    * Project Goals
+    * User Goals
+    * User Stories
+    * Site Owner Goals
+    * User Requirements and Expectations
+    * Design Choices
+        * Fonts
+        * Icons
+        * Colours
+* Technologies
+* Features
+    * Features that have been developed
+    * Features that will be implemented in the future
+* Testing
+* Bugs
+* Deployment
+* Credit
 
-## Gitpod Reminders
+## UX (User Experience) 
+---
+### Project Goals ### 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* The goal of this project is to create a digital launchpad for a small electrical engineering consultancy company. The main services on offer need to be clearly demonstrated on the home page through simple bullet-points and images of sample projects. Links to section pages provide further information on each of these services. A simple contact/about page allows users to send a business request.
 
-`python3 -m http.server`
+### User Goals ###
 
-A blue button should appear to click: *Make Public*,
+* Find information about **electrical design services**.
+* Find information about **motor and drive services**.
+* Find information about **automation services**.
+* Find information about **machine safety services**.
+* Find information about **ATEX services**.
+* **Send an email** to the site owner.
 
-Another blue button should appear to click: *Open Browser*.
+### User Stories ###
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* As a **user**, I want to see all the main services this company can offer at a glance so that in a single scroll of the homepage, I know exactly what this company has to offer.
+* As a **user**, I want **fast loading-times** for pages.
+* As a **user**, I want a **simple and well laid-out** website that gives the impression of these complex topics being made simple.
+* As a **user**, I want to see **modern design** to show that the site owner is au fait with the latest developments in technology.
+* As a **user**, I want to see some **examples of previous projects** done by this company.
+* As a **user**, I want to see references to **industry standards** to be sure the deliverables will meet my company's specifications.
+* As a **user**, I want to be able to contact the site owner and give a simple description of a potential project.
 
-A blue button should appear to click: *Make Public*,
+### Site Owner Goals ###
 
-Another blue button should appear to click: *Open Browser*.
+* As a **site-owner**, I want to clearly **communicate my company's services**.
+* As a **site-owner**, 
+* As a **site-owner**, 
+* As a **site-owner**, 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### User Requirements and Expectations ###
 
-## Updates Since The Instructional Video
+**Requirements**
+* Easily navigate with a **navbar**.
+* Provide a simple overview on the main page and a little more detail in sub pages.
+* Fast **loading-times**.
+* **Contact form** for users to send a project information request.
+* Company **contact** details readily accessible on the **footer** of every page.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+**Expectations**
+* Content is **visually satisfying** and **informative**.
+* **Navigation** takes **user** to specific **parts** of the **website**.
+* Working **Read More** buttons to **avoid** big **lumps** of clustered **text**.
+* **Visually appealing** data from external sources.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Design Choices ###
+---
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+**Fonts**
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+**Icons**
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+**Colours**
 
---------
 
-Happy coding!
+## Wireframing ##
+---
+
+
+## Features ##
+---
+**Features** that have been **implemented:**
+
+
+**Features** that will be **implemented** in the **future:**
+
+
+## Technologies used ##
+---
+**Languages**
+
+**Tools & Libraries**
+
+## Testing ##
+---
+
+**Responsiveness**
+
+
+**Design**
+
+
+**Contact form**
+
+
+## Bugs ##
+---
+
+## Deployment ##
+---
+
+## Credits ##
+---
+
+
