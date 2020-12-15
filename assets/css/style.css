@@ -1,7 +1,8 @@
 /*--------------------------------------------Fonts-----------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Padauk:wght@400;700&display=swap');
 
-
-
+/* font-family: 'Merriweather', serif;  */
+/*font-family: 'Padauk', sans-serif;    */
 
 /*--------------------------------------------Colors----------------------------------*/
 /* Primary Dark  293132 Charleston Green */
@@ -15,9 +16,18 @@
     color: #A2BCE0;                 /*testhigh remove this*/
 }
 
+nav a {
+    color: #50D8D7;
+}
 /*--------------------------------------------Special Paddings Margins Text-----------*/
 
 
+
+/*--------------------------------------------General---------------------------------*/
+p {
+    color: #293132;
+    font-family: 'Merriweather', serif;  
+}
 
 /*--------------------------------------------Heading---------------------------------*/
 .home-header-background {
@@ -31,6 +41,23 @@
     -webkit-transition: all 7s ease-in-out;
 }
 
+nav a {
+    color: #50D8D7;
+    font-family: 'Padauk', sans-serif;
+}
+
+.bg-nav {
+    background-color: rgba(29,31,32,0.75);
+    width: 100%;
+}
+
+.logo-text {
+    color: #50D8D7;
+    font-family: 'Padauk', sans-serif;
+    font-weight: 700;    
+    font-size: 160%;
+    text-shadow: 2px 2px #474044;
+}
 
 /*--------------------------------------------Hover.css-------------------------------*/
 
