@@ -4,15 +4,32 @@
 
 
 /*--------------------------------------------Colors----------------------------------*/
+/* Primary Dark  293132 Charleston Green */
+/* Secondary Dark 474044 Dark Liver */
+/* Primary Brand 4F5165 Independence */
+/* Secondary Brand 547AA5 Blue Yonder  */
+/* Tertiary Brand 50D8D7 */
 
-
+.bg-footer {
+    background-color: #293132;
+    color: #A2BCE0;                 /*testhigh remove this*/
+}
 
 /*--------------------------------------------Special Paddings Margins Text-----------*/
 
 
 
 /*--------------------------------------------Heading---------------------------------*/
-
+.home-header-background {
+    background: url("../images/dimitry-anikin-ATyawSn-NsE-unsplash.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    transition: all 7s ease-in-out;
+    -moz-transition: all 7s ease-in-out;
+    -webkit-transition: all 7s ease-in-out;
+}
 
 
 /*--------------------------------------------Hover.css-------------------------------*/
@@ -20,7 +37,9 @@
 
 
 /*--------------------------------------------Footer----------------------------------*/
-
+.footer-section {
+    background-color:#474044;
+}
 
 
 
