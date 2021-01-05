@@ -45,12 +45,23 @@ p {
 .pre-header div div p{
     color: #547AA5;
     font-size: 80%;
-    font-family: 'Padauk', sans-serif; 
+    font-family: 'Padauk', sans-serif;
+    text-align: center;
 }
 
+.pre-header div div span a {
+    color: #547AA5;
+    font-size: 100%;
+    font-family: 'Padauk', sans-serif;
+    text-decoration: none;
+    text-align: center;
+}
 .main-header {
-    display: inline-block;
+    /*display: inline-block; */
     height: 100px;
+    background-color: #4F5165;
+    margin: 0px;
+    padding: 0px;
 }
 
 /*
@@ -60,7 +71,7 @@ p {
     height: 120px;
     width:100%;
     top:0;
-}*/
+}
 
 .home-header-background {
     background: url("../images/dimitry-anikin-ATyawSn-NsE-unsplash.jpg");
@@ -90,6 +101,7 @@ nav a {
     font-size: 160%;
     text-shadow: 2px 2px #474044;
 }
+*/
 /*--------------------------------------------Main Sections-------------------------------*/
 .section-general {
     display: inline-block;
