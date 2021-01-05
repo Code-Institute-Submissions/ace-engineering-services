@@ -20,7 +20,13 @@ nav a {
     color: #293132;
 }
 /*--------------------------------------------Special Paddings Margins Text-----------*/
-
+.pre-header div div {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    height: 20px;
+}
 
 
 /*--------------------------------------------General---------------------------------*/
@@ -30,20 +36,31 @@ p {
 }
 
 /*--------------------------------------------Heading---------------------------------*/
+.pre-header {
+    display: inline-block;
+    height: auto;
+}
+
+
 .pre-header div div p{
     color: #547AA5;
     font-size: 80%;
     font-family: 'Padauk', sans-serif; 
 }
 
+.main-header {
+    display: inline-block;
+    height: 100px;
+}
 
+/*
 .navbar {
     overflow: hidden;
     position: fixed;
     height: 120px;
     width:100%;
     top:0;
-}
+}*/
 
 .home-header-background {
     background: url("../images/dimitry-anikin-ATyawSn-NsE-unsplash.jpg");
@@ -72,6 +89,10 @@ nav a {
     font-weight: 700;    
     font-size: 160%;
     text-shadow: 2px 2px #474044;
+}
+/*--------------------------------------------Main Sections-------------------------------*/
+.section-general {
+    display: inline-block;
 }
 
 /*--------------------------------------------Hover.css-------------------------------*/

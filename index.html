@@ -23,51 +23,53 @@
     <header>
         <!--   Top Line with contact details   -->
         <div class="container-fluid pre-header">
-            <div class="row">
-                <div class="col-sm-3">
-                    <p>X +353 (0)89 611 1234</p>
+            <div class="row justify-content-around">
+                <div class="col-sm-4 col-md-3 col-lg-2">
+                    <p><span class="float-sm-left"><img src="assets/icons/lightning.svg" alt="Tel:" width="15" height="15" title="lightning"> +353 (0)89 611 1234</span></p>
                 </div>
-                <div class="col-sm-5">
-                    <p>info@aceengineering.com</p>
+                <div class="col-sm-4 col-md-3 col-lg-2">
+                    <p><span class="float-sm-left">info@aceengineering.com</span></p>
                 </div>
-                <div class="col-sm-4">
-                    <p>About / Contact</p>
+                <div class="col-sm-4 col-md-3 offset-md-3 col-lg-2 offset-lg-4">
+                    <p><span class="float-sm-right">Contact</span></p>
                 </div>
             </div>
         </div>
-        <nav class="navbar navbar-expand-sm navbar-light">
-            <a class="navbar-brand" href="#">
-                <img src="assets/images/ACE_Logo_Text_Only.jpg" width="120" alt="ACE Engineering Services">
-            </a>
-            <!--   Navigation Toggler Button   -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks" > <!-- aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"-->
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <div class="main-header ">
+            <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/images/ACE_Logo_Text_Only.jpg" width="120" alt="ACE Engineering Services">
+                </a>
+                <!--   Navigation Toggler Button   -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks" > <!-- aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation"-->
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <!--   Navigation Links   -->
-            <div class="collapse navbar-collapse" id="navbarLinks">
-                <ul class="navbar-nav "> <!--mr-auto-->
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="electrical.html">Electrical</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="motors.html">Motion</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="automation.html">Automation</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="safety.html">Safety</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>                
-                </ul>
-            </div>
-        </nav>
+                <!--   Navigation Links   -->
+                <div class="collapse navbar-collapse" id="navbarLinks">
+                    <ul class="navbar-nav "> <!--mr-auto-->
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="electrical.html">Electrical</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="motors.html">Motion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="automation.html">Automation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="safety.html">Safety</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>                
+                    </ul>
+                </div>
+            </nav>
+        </div>
         
 
 
@@ -124,7 +126,7 @@
 
 
 <!--   ---------------------------------------------------- ELECTRICAL SECTION ----------------------------------------------------  -->
-    <section>
+    <section class="section-general">
         <h3>Electrical Engineering </h3>
         <p>It is a long established fact <i class="fas fa-cat"></i> that a reader will be distracted by the readable content of a page when looking at its layout.
         The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
