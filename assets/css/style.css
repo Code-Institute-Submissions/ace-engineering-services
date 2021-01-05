@@ -30,6 +30,21 @@ p {
 }
 
 /*--------------------------------------------Heading---------------------------------*/
+.pre-header div div p{
+    color: #547AA5;
+    font-size: 80%;
+    font-family: 'Padauk', sans-serif; 
+}
+
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    height: 120px;
+    width:100%;
+    top:0;
+}
+
 .home-header-background {
     background: url("../images/dimitry-anikin-ATyawSn-NsE-unsplash.jpg");
     background-position: bottom;
@@ -60,6 +75,7 @@ nav a {
 }
 
 /*--------------------------------------------Hover.css-------------------------------*/
+
 
 
 
