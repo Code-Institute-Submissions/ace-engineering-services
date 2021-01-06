@@ -103,6 +103,17 @@ nav a {
 }
 */
 /*--------------------------------------------Main Sections-------------------------------*/
+.hero-image {
+    background: url("../images/dimitry-anikin-ATyawSn-NsE-unsplash.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    transition: all 7s ease-in-out;
+    -moz-transition: all 7s ease-in-out;
+    -webkit-transition: all 7s ease-in-out;    
+}
+
 .section-general {
     display: inline-block;
 }
