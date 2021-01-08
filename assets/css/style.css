@@ -11,10 +11,7 @@
 /* Secondary Brand 547AA5 Blue Yonder  */
 /* Tertiary Brand 50D8D7 */
 
-.bg-footer {
-    background-color: #293132;
-    color: #A2BCE0;                 /*testhigh remove this*/
-}
+
 
 nav a {
     color: #293132;
@@ -125,10 +122,22 @@ nav a {
 
 /*--------------------------------------------Footer----------------------------------*/
 .footer-section {
-    background-color:#474044;
+    background-color: #293132;
 }
 
+.footer-section div div h4 {
+    color: #547AA5;
+}
 
+.footer-section div div p {
+    color: #CFCFCF;
+    font-family: 'Padauk', sans-serif;
+    font-size: 90%;
+}
+
+.footer-section div div p span svg {
+    color: #547AA5;
+}
 
 
 /*--------------------------------------------CONTACT FORM----------------------------*/
