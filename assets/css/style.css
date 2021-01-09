@@ -121,23 +121,53 @@ nav a {
 
 
 /*--------------------------------------------Footer----------------------------------*/
-.footer-section {
+.footer-main-section {
     background-color: #293132;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
-.footer-section div div h4 {
+.footer-main-section div div h4 {
     color: #547AA5;
 }
 
-.footer-section div div p {
+.footer-main-section div div p {
     color: #CFCFCF;
     font-family: 'Padauk', sans-serif;
     font-size: 90%;
 }
 
-.footer-section div div p span svg {
+.footer-main-section div div ul {
+    list-style: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    color: #CFCFCF;
+    background-color: #293132;
+    font-family: 'Padauk', sans-serif;
+    font-size: 90%;
+}
+
+.footer-main-section div div li {
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    border-color: #293132;
+    color: #CFCFCF;
+    background-color: #293132;
+    font-family: 'Padauk', sans-serif;
+    font-size: 90%;
+}
+
+.footer-main-section div div p span svg {
     color: #547AA5;
 }
+
+.footer-disclaimer {
+    background-color: #CFCFCF;
+    margin: 0px;
+}
+
 
 
 /*--------------------------------------------CONTACT FORM----------------------------*/
