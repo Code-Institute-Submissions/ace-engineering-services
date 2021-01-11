@@ -20,7 +20,7 @@
  
 </head>
 <body>
-    <!-- ----------------------  Header Version 0.2 11Jan21 ------------------  -->
+    <!-- ----------------------  Header Version 0.3 11Jan21 ------------------  -->
     <header>
         <!--   Top Pre-Header Line with contact details   -->
         <div class="container-fluid pre-header">
@@ -49,7 +49,7 @@
                 </div>
                 <!--   Pre-Header Contact   -->
                 <div class="col-sm-4 col-md-3 offset-md-3 col-lg-2 offset-lg-5">
-                    <p><span class="float-sm-right"><a href="contact/html">Contact</a></span></p>
+                    <p><span class="float-sm-right"><a href="contact.html">Contact</a></span></p>
                 </div>
             </div>
         </div>
@@ -94,13 +94,14 @@
     <section class="section-general">
         <h1>Contact Us</h1>
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-12">
+            <div class="row align-items-center">
+                <div class="col">
                     <form class="jumbotron">
                         <!-- Salutation -->
-                        <div class="form-group">
-                            <label for="salutation">Salutation</label>
+                        <div class="form-group align-items-center">
+                            <label for="salutation">Salutation:</label>
                             <select class="form-control" id="salutation">
+                            <option></option>
                             <option>Mr</option>
                             <option>Ms</option>
                             <option>Mrs</option>
@@ -110,54 +111,107 @@
                             </select>
                         </div>
                         <!-- Given Name -->
-
+                        <div class="form-group">
+                            <label for="givenName">Given Name:</label>
+                            <input type="text" class="form-control" id="givenName" placeholder="Given Name">
+                        </div>
                         <!-- Family Name -->
-
+                        <div class="form-group">
+                            <label for="familyName">Family Name:</label>
+                            <input type="text" class="form-control" id="familyName" placeholder="Family Name">
+                        </div>
                         <!-- Email -->
                         <div class="form-group">
-                            <label for="emailAddress">Email address</label>
+                            <label for="emailAddress">Email address:</label>
                             <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com">
                         </div>
-
                         <!-- Telephone -->
-
+                        <div class="form-group">
+                            <label for="telephoneNo">Telephone Number:</label>
+                            <input type="text" class="form-control" id="telephoneNo" placeholder="+353 (0)1 123 4567">
+                        </div>
                         <!-- Company Name -->
-
+                        <div class="form-group">
+                            <label for="companyName">Company Name:</label>
+                            <input type="text" class="form-control" id="companyName" placeholder="Your company name">
+                        </div>
                         <!-- Country -->
-
+                        <div class="form-group">
+                            <label for="countryName">Country:</label>
+                            <input type="text" class="form-control" id="countryName" placeholder="Which country is the project based in?">
+                        </div>
                         <!-- Industry -->
-
+                        <div class="form-group">
+                            <label for="checkMachinery">Which industry is the application for?</label>
+                            <br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="checkMachinery" value="checkMach">
+                                <label class="form-check-label" for="checkMachinery">Machinery</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="checkSemiconductor" value="checkSemiconductor">
+                                <label class="form-check-label" for="checkSemiconductor">Semiconductor</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="checkPharmaceutical" value="checkPharmaceutical">
+                                <label class="form-check-label" for="checkPharmaceutical">Pharmaceutical</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="checkChemical" value="checkChemical">
+                                <label class="form-check-label" for="checkChemical">Process/Chemical</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="checkFood" value="checkFood">
+                                <label class="form-check-label" for="checkFood">Food/Dairy</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="checkAutomotive" value="checkAutomotive">
+                                <label class="form-check-label" for="checkAutomotive">Automotive</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="checkOtherInd" value="checkOtherInd">
+                                <label class="form-check-label" for="checkOtherInd">Other</label>
+                            </div>
+                            <div class="form-inline">
+                                <label class="sr-only" for="otherIndustry">Other Industry</label>
+                                <input type="text" class="form-control mb-2 mr-sm-2" id="otherIndustry" placeholder="Other Industry">    
+                            </div>
+                        </div>
                         <!-- Your Application Type -->
-
-                        <!-- Short Description -->
-
                         <div class="form-group">
-                            <label for="exampleFormControlInput1">Email address</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                            <label for="checkElecDesign">What type of application is it?</label>
+                            <br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="checkElecDesign" value="checkElecDesign">
+                                <label class="form-check-label" for="checkElecDesign">Electrical Design</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="checkMotion" value="checkMotion">
+                                <label class="form-check-label" for="checkMotion">Motors and Drives</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="checkAutomation" value="checkAutomation">
+                                <label class="form-check-label" for="checkAutomation">Automation</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="checkSafety" value="checkSafety">
+                                <label class="form-check-label" for="checkSafety">Safety Engineering</label>
+                            </div>
+                            <div class="form-inline">
+                                <label class="sr-only" for="otherApplication">Other Application</label>
+                                <input type="text" class="form-control mb-2 mr-sm-2" id="otherApplication" placeholder="Other Application">    
+                            </div>
                         </div>
+                        <!-- Application Description -->
                         <div class="form-group">
-                            <label for="exampleFormControlSelect1">Example select</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            </select>
+                            <label for="applicationDescription">Give us a brief description of your application:</label>
+                            <textarea class="form-control" id="applicationDescription" rows="10"></textarea>
                         </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlSelect2">Example multiple select</label>
-                            <select multiple class="form-control" id="exampleFormControlSelect2">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Example textarea</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <!-- Submit Button -->
+                        <div class="form-group row">
+                            <div class="col-sm-10">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
                         </div>
                     </form>
                 </div>
