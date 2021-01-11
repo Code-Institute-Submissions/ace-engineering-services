@@ -101,6 +101,8 @@ nav a {
 */
 /*--------------------------------------------Main Sections-------------------------------*/
 .hero-image {
+    padding-top: 5%;
+    padding-bottom: 5%;
     background: url("../images/dimitry-anikin-ATyawSn-NsE-unsplash.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
@@ -109,6 +111,14 @@ nav a {
     transition: all 7s ease-in-out;
     -moz-transition: all 7s ease-in-out;
     -webkit-transition: all 7s ease-in-out;    
+}
+
+.jumbotron-hero {
+    background: rgba(255, 255, 255, 0.75);
+    margin: 1rem 2rem 1rem 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border: 3px solid #474044;
+    border-radius: 2rem;
 }
 
 .section-general {
