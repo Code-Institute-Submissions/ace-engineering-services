@@ -1,7 +1,7 @@
 # ACE Engineering : Automation Control Electrical
 *Professional engineering services for all your industrial requirements.
 
-![hero-image](/assets/images/AVE_Logo_Boxed.jpg)
+![ACE-Company-Logo](/assets/images/ACE_Logo_Boxed.jpg)
 
 ## Contents
 ---
@@ -89,7 +89,7 @@ Bootstrap inline SVG icons are used throughout this project. https://icons.getbo
 
 **Colours**
 The website colors were chosen using https://coolors.co/. The choice was based on a providing a sense of calm reliable colours. Rich darks for backgrounds and menus. Blues for other elements and headings.
-![Color Selection](/assets/wireframes/ace-engineering-site-colors.jpg)
+![Color-Selection](assets/wireframes/ace-engineering-site-colors.jpg)
 
 ## Wireframing ##
 Wireframing was done using Balsamiq under full-functional trial provided by Code Institute.
