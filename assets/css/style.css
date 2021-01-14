@@ -17,10 +17,15 @@ nav a {
     color: #293132;
 }
 /*--------------------------------------------Special Paddings Margins Text-----------*/
-.pre-header div div {
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.pre-header{
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
     margin-bottom: 0px;
     height: 20px;
 }
@@ -33,26 +38,23 @@ p {
 }
 
 /*--------------------------------------------Heading---------------------------------*/
-
-.pre-header {
+/* .preheader {
     display: inline-block;
     height: auto;
-}
+} */
 
 
-.pre-header-text{
+.preheader div p{
     color: #547AA5;
     font-size: 100%;
     font-family: 'Padauk', sans-serif;
-    
 }
 
-.pre-header div div a {
+.preheader div a {
     color: #547AA5;
     font-size: 100%;
     font-family: 'Padauk', sans-serif;
     text-decoration: none;
-    text-align: center;
 }
 .main-header {
     /*display: inline-block; */
@@ -212,3 +214,27 @@ nav a {
   }
 }
 
+
+
+/*-- Testing  --*/
+
+.test-bg-yellow {
+    background-color: yellow;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #474044; 
+}
+
+.test-bg-red {
+    background-color: red;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #474044;
+}
+
+.test-bg-blue {
+    background-color: blue;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #474044;
+}
