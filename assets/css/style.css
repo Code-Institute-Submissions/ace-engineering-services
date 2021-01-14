@@ -41,12 +41,12 @@ p {
 
 .pre-header div div p{
     color: #547AA5;
-    font-size: 80%;
+    font-size: 100%;
     font-family: 'Padauk', sans-serif;
-    text-align: center;
+    text-align: left;
 }
 
-.pre-header div div span a {
+.pre-header div div a {
     color: #547AA5;
     font-size: 100%;
     font-family: 'Padauk', sans-serif;
@@ -204,3 +204,8 @@ nav a {
 
 /*--------------------------------------------Media Query-----------------------------*/
 
+@media screen and (max-width: 600px) {
+  .preheader-flexbox-sm {
+    flex-direction: column;
+  }
+}
