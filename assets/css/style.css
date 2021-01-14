@@ -163,6 +163,15 @@ nav a {
     padding-top: 20px;
     padding-bottom: 10px;
 }
+/*
+.footer-about {
+    min-width: 20em;
+    max-width: 120em;
+} */
+
+.footer-contact {
+    flex: 0 0 25em;
+}
 
 .footer-main-section div div h4 {
     color: #547AA5;
