@@ -16,7 +16,7 @@
 nav a {
     color: #293132;
 }
-/*--------------------------------------------Special Paddings Margins Text-----------*/
+/*-------------------------------------------- Special Paddings Margins Text Rules -----------*/
 * {
   margin: 0;
   padding: 0;
@@ -30,6 +30,10 @@ nav a {
     height: 20px;
 }
 
+.hr {
+    width: 100%;
+    border-top: 1px solid #474044;
+}
 
 /*--------------------------------------------General---------------------------------*/
 p {
