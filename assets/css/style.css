@@ -33,17 +33,18 @@ p {
 }
 
 /*--------------------------------------------Heading---------------------------------*/
+
 .pre-header {
     display: inline-block;
     height: auto;
 }
 
 
-.pre-header div div p{
+.pre-header-text{
     color: #547AA5;
     font-size: 100%;
     font-family: 'Padauk', sans-serif;
-    text-align: left;
+    
 }
 
 .pre-header div div a {
@@ -205,7 +206,9 @@ nav a {
 /*--------------------------------------------Media Query-----------------------------*/
 
 @media screen and (max-width: 600px) {
-  .preheader-flexbox-sm {
-    flex-direction: column;
+  .preheader-flexbox-row-sm {
+    align-items: center;
+    justify-content: center;
   }
 }
+
