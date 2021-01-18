@@ -20,69 +20,54 @@
  
 </head>
 <body>
-    <!-- Header Version 0.3 11Jan21 ------------------  -->
+    <!-- Header Section -->
     <header>
-        <!--   Top Pre-Header Line with contact details   -->
-        <div class="container-fluid pre-header">
-            <div class="row">
-                <!--   Pre-Header Telephone Number   -->
-                <div class="col-sm-4 col-md-3 col-lg-2">
-                    <p>
-                        <span class="float-center float-sm-left">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="currentColor" class="bi bi-telephone-fill" viewbox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0
-                            .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034
-                            1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                        </svg> +353 (0)89 611 1234
-                        </span>
-                    </p>
-                </div>
-                <!--   Pre-Header Email Address   -->
-                <div class="col-sm-4 col-md-3 col-lg-3">
-                    <p><span class="float-sm-left">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewbox="0 0 16 16">
-                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57
-                            4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
-                        </svg>
-                        <a href="mailto:info@aceengineering.com">info@aceengineering.com</a></span>
-                    </p>
-                </div>
-                <!--   Pre-Header Contact   -->
-                <div class="col-sm-4 col-md-3 offset-md-3 col-lg-2 offset-lg-5">
-                    <p><span class="float-sm-right"><a href="contact.html">Contact</a></span></p>
-                </div>
+        <!-- Top Pre-Header Line with contact details -->
+        <div class="preheader d-flex flex-column flex-sm-row preheader-flexbox-row-sm">
+            <!-- Pre-Header Telephone Number -->
+            <div class="p-2">
+                <p class="preheader-text"><i class="fas fa-phone"></i>+353 (0)89 611 1234</p>
+            </div>
+            <!-- Pre-Header Email Address -->
+            <div class="p-2">
+                <a href="mailto:info@aceengineering.com"><i class="fas fa-envelope"></i> info@aceengineering.com</a>
+            </div>
+            <!-- Pre-Header Contact -->
+            <div class="ml-sm-auto p-2">
+                <a href="contact.html">Contact</a>
             </div>
         </div>
+        <!-- Main Header -->
         <div class="main-header">
             <nav class="navbar navbar-expand-sm navbar-dark">
                 <a class="navbar-brand" href="index.html">
                     <img src="assets/images/ACE_Logo_Text_Only_Dark.jpg" width="120" alt="ACE Engineering Services">
                 </a>
-                <!--   Navigation Toggler Button   -->
+                <!-- Navigation Toggler Button -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <!--   Navigation Links   -->
+                <!-- Navigation Links -->
                 <div class="collapse navbar-collapse" id="navbarLinks">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="electrical.html">Electrical</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="motors.html">Motion</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="automation.html">Automation</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="safety.html">Safety</a>
-                        </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="index.html#ace-home">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#ace-electrical">Electrical</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#ace-motors">Motion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#ace-automation">Automation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#ace-safety">Safety</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
                         </li>                
                     </ul>
                 </div>
