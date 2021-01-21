@@ -68,6 +68,11 @@ p {
     padding: 0px;
 }
 
+.bg-nav {
+    background-color: #4F5165;
+    width: 100%;
+}
+
 /*
 .navbar {
     overflow: hidden;
