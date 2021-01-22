@@ -144,6 +144,24 @@ nav a {
     background-size: cover;
 }
 
+.bg-electrical-1 {
+    background: url("../images/electrical-semi-panel.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-height: 300px;    
+}
+
+.bg-electrical-2 {
+    background: url("../images/electrical-heavy-panel.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-height: 300px;   
+}
+
 .jumbotron-contact {
     background: rgba(255, 255, 255, 0.9);
     margin: 1rem 2rem 1rem 2rem;
