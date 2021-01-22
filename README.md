@@ -94,8 +94,9 @@ The website colors were chosen using [https://coolors.co/](https://coolors.co/).
 ## Wireframing
 Wireframing was done using Balsamiq under full-functional trial provided by Code Institute.
 png files are available in /wireframes folder for perusal.
----
+The style of the site has changed during development from a multipage traditional design to a more modern single scrolling page following discussions with my project mentor.
 
+---
 
 ## Features
 ---
