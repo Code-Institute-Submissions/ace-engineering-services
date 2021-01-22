@@ -26,11 +26,11 @@
 
 ## UX (User Experience) 
 ---
-### Project Goals ### 
+### Project Goals
 
 * The goal of this project is to create a digital launchpad for a small electrical engineering company. The main services on offer need to be clearly demonstrated on the home page through simple bullet-points. Links to section pages provide further information on each of these services. A simple contact page allows users to send a business request.
 
-### User Goals ###
+### User Goals
 
 * Find information about **electrical design services**.
 * Find information about **motor and drive services**.
@@ -39,7 +39,7 @@
 * Find information about **ATEX services**.
 * **Send an email** to the site owner.
 
-### User Stories ###
+### User Stories
 
 * As a **user**, I want to see all the main services this company can offer at a glance so that in a single scroll of the homepage, I know exactly what this company has to offer.
 * As a **user**, I want **fast loading-times** for pages.
@@ -49,7 +49,7 @@
 * As a **user**, I want to see references to **industry standards** to be sure the deliverables will meet my company's specifications.
 * As a **user**, I want to be able to contact the site owner and give a simple description of a potential project.
 
-### Site Owner Goals ###
+### Site Owner Goals
 
 * As a **site-owner**, I want to clearly **communicate my company's services**.
 * As a **site-owner**, I want to convey **technical expertise in the subject matter** to site visitors.
@@ -57,7 +57,7 @@
 * As a **site-owner**, I want **no social media affiliations** on this site becuase some projects will be undertaken with stict NDA and security requirements.
 * As a **site-owner**, I want a **simple and concise contact form** that gathers important project data from potential customers.
 
-### User Requirements and Expectations ###
+### User Requirements and Expectations
 
 **Requirements**
 * Easily navigate with a **navbar**.
@@ -71,7 +71,7 @@
 * **Navigation** takes **user** to specific **parts** of the **website**.
 * Working **Read More** buttons to **avoid** big **lumps** of clustered **text**.
 
-### Design Choices ###
+### Design Choices
 ---
 In designing this site I took inspiration from a few engineering websites but most significantly, http://www.harpelectricaleng.com/ .
 Engineering is a very broad discipline and companies are generally highly-specialised in the services they provide. Hence, the most difficult task for any potential visitor to an engineering site is to find out what exact services a particular company provides. Generally an engineer visiting a site will make a decision in less than 10 seconds whether a particular site has what they are looking for. Hence, there is urgency to convey:
@@ -91,13 +91,13 @@ Bootstrap inline SVG icons are used throughout this project. https://icons.getbo
 The website colors were chosen using https://coolors.co/. The choice was based on a providing a sense of calm reliable colours. Rich darks for backgrounds and menus. Blues for other elements and headings.
 ![Color-Selection](assets/wireframes/ace-engineering-site-colors.jpg)
 
-## Wireframing ##
+## Wireframing
 Wireframing was done using Balsamiq under full-functional trial provided by Code Institute.
 png files are available in /wireframes folder for perusal.
 ---
 
 
-## Features ##
+## Features
 ---
 **Features** that have been **implemented:**
 * Simple navigation on all screen sizes.
@@ -109,7 +109,7 @@ png files are available in /wireframes folder for perusal.
 * **sticky-top** would be a nice feature to add minimising the header and sticking to the top of the browser on scrolling down. It was not possible to get this working during the project despite a lot of effort and code re-writes.
 * 
 
-## Technologies used ##
+## Technologies Used
 ---
 **Languages**
 * HTML5
@@ -127,7 +127,7 @@ png files are available in /wireframes folder for perusal.
 
 
 
-## Testing ##
+## Testing
 ---
 
 **Responsiveness**
@@ -142,13 +142,13 @@ png files are available in /wireframes folder for perusal.
 * **Submit button does not function** as is understood under the MS1 guidelines because there is no back-end code present.
 * **Results**: The data validation fields have all been individually tested and **PASS**.
 
-## Bugs ##
+## Bugs
 ---
 
-## Deployment ##
+## Deployment
 ---
 
-## Credits ##
+## Credits
 ---
 
 
