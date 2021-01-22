@@ -1,10 +1,10 @@
-/*--------------------------------------------Fonts-----------------------------------*/
+/*--- Fonts ---*/
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Padauk:wght@400;700&display=swap');
 
-/* font-family: 'Merriweather', serif;  */
-/*font-family: 'Padauk', sans-serif;    */
+/* font-family: 'Merriweather', serif; */
+/* font-family: 'Padauk', sans-serif; */
 
-/*--------------------------------------------Colors----------------------------------*/
+/*--- Colors ---*/
 /* Primary Dark  293132 Charleston Green */
 /* Secondary Dark 474044 Dark Liver */
 /* Primary Brand 4F5165 Independence */
@@ -13,14 +13,25 @@
 
 
 
-nav a {
-    color: #293132;
-}
-/*-------------------------------------------- Special Paddings Margins Text Rules -----------*/
+
+/*--- Special Paddings Margins Text Rules ---*/
 * {
   margin: 0;
   padding: 0;
 }
+
+.hr {
+    width: 100%;
+    border-top: 1px solid #474044;
+}
+
+/*--- General ---*/
+p {
+    color: #293132;
+    font-family: 'Merriweather', serif;  
+}
+
+/*--- Heading ---*/
 
 .pre-header{
     padding-top: 0px;
@@ -29,24 +40,6 @@ nav a {
     margin-bottom: 0px;
     height: 20px;
 }
-
-.hr {
-    width: 100%;
-    border-top: 1px solid #474044;
-}
-
-/*--------------------------------------------General---------------------------------*/
-p {
-    color: #293132;
-    font-family: 'Merriweather', serif;  
-}
-
-/*--------------------------------------------Heading---------------------------------*/
-/* .preheader {
-    display: inline-block;
-    height: auto;
-} */
-
 
 .preheader div p{
     color: #547AA5;
@@ -60,58 +53,23 @@ p {
     font-family: 'Padauk', sans-serif;
     text-decoration: none;
 }
+
 .main-header {
-    /*display: inline-block; */
-    /*height: 100px;*/
     background-color: #4F5165;
     margin: 0px;
     padding: 0px;
 }
 
+nav a {
+    color: #293132;
+}
+
 .bg-nav {
     background-color: #4F5165;
     width: 100%;
 }
 
-/*
-.navbar {
-    overflow: hidden;
-    position: fixed;
-    height: 120px;
-    width:100%;
-    top:0;
-}
-
-.home-header-background {
-    background: url("../images/dimitry-anikin-ATyawSn-NsE-unsplash.jpg");
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 300px;
-    transition: all 7s ease-in-out;
-    -moz-transition: all 7s ease-in-out;
-    -webkit-transition: all 7s ease-in-out;
-}
-
-nav a {
-    color: #50D8D7;
-    font-family: 'Padauk', sans-serif;
-}
-
-.bg-nav {
-    background-color: rgba(29,31,32,0.75);
-    width: 100%;
-}
-
-.logo-text {
-    color: #50D8D7;
-    font-family: 'Padauk', sans-serif;
-    font-weight: 700;    
-    font-size: 160%;
-    text-shadow: 2px 2px #474044;
-}
-*/
-/*--------------------------------------------Main Sections-------------------------------*/
+/*--- Main Sections ---*/
 .hero-image {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -162,23 +120,12 @@ nav a {
     min-height: 300px;   
 }
 
-.jumbotron-contact {
-    background: rgba(255, 255, 255, 0.9);
-    margin: 1rem 2rem 1rem 2rem;
-    padding: 1rem 2rem 1rem 2rem;
-    border: 3px solid #474044;
-    border-radius: 2rem;
-}
-
-.jumbotron-contact div label {
-    font-weight: 500;
-}
-/*--------------------------------------------Hover.css-------------------------------*/
+/*--- Hover.css ---*/
 
 
 
 
-/*--------------------------------------------Footer----------------------------------*/
+/*--- Footer ---*/
 .footer-main-section {
     background-color: #293132;
     margin-top: 0px;
@@ -186,11 +133,6 @@ nav a {
     padding-top: 20px;
     padding-bottom: 10px;
 }
-/*
-.footer-about {
-    min-width: 20em;
-    max-width: 120em;
-} */
 
 .footer-contact {
     flex: 0 0 25em;
@@ -235,13 +177,21 @@ nav a {
     margin: 0px;
 }
 
+/*--- CONTACT FORM ---*/
+.jumbotron-contact {
+    background: rgba(255, 255, 255, 0.9);
+    margin: 1rem 2rem 1rem 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border: 3px solid #474044;
+    border-radius: 2rem;
+}
+
+.jumbotron-contact div label {
+    font-weight: 500;
+}
 
 
-/*--------------------------------------------CONTACT FORM----------------------------*/
-
-
-
-/*--------------------------------------------Media Query-----------------------------*/
+/*--- Media Query ---*/
 
 @media screen and (max-width: 600px) {
   .preheader-flexbox-row-sm {
@@ -252,7 +202,7 @@ nav a {
 
 
 
-/*-- Testing  --*/
+/*-- Testing - TO BE DELETED  --*/
 
 .test-bg-yellow {
     background-color: yellow;
