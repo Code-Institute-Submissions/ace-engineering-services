@@ -89,7 +89,7 @@ FontAwesome free icons have been used throughout this project. [https://fontawes
 
 **Colours**
 The website colors were chosen using [https://coolors.co/](https://coolors.co/). The choice was based on a providing a sense of calm reliable colours. Rich darks for backgrounds and menus. Blues for other elements and headings.
-![Color-Selection](assets/wireframes/ace-engineering-site-colors.jpg)
+![Color-Selection](/wireframes/ace-engineering-site-colors.jpg)
 
 ## Wireframing
 Wireframing was done using Balsamiq under full-functional trial provided by Code Institute.
