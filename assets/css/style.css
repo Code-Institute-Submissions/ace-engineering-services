@@ -164,8 +164,8 @@ nav a {
 
 .footer-main-section div div ul {
     list-style: none;
-    padding: 0px 0px 0px 0px;
-    margin: 0px;
+    /*padding: 0px 0px 0px 0px;
+    margin: 0px;*/
     color: #CFCFCF;
     background-color: #293132;
     font-family: 'Padauk', sans-serif;
@@ -173,8 +173,8 @@ nav a {
 }
 
 .footer-main-section div div li {
-    padding: 0px 0px 0px 0px;
-    margin: 0px;
+    /*padding: 0px 0px 0px 0px;
+    margin: 0px;*/
     border-color: #293132;
     color: #CFCFCF;
     background-color: #293132;
