@@ -137,10 +137,6 @@ nav a {
     padding-bottom: 10px;
 }
 
-.footer-contact {
-    flex: 0 0 25em;
-}
-
 .footer-main-section div div h4 {
     color: #547AA5;
 }
@@ -148,7 +144,7 @@ nav a {
 .footer-main-section div div p {
     color: #CFCFCF;
     font-family: 'Padauk', sans-serif;
-    font-size: 90%;
+    font-size: 1em;
 }
 
 .footer-main-section div div ul {
@@ -158,7 +154,7 @@ nav a {
     color: #CFCFCF;
     background-color: #293132;
     font-family: 'Padauk', sans-serif;
-    font-size: 90%;
+    font-size: 1em;
 }
 
 .footer-main-section div div li {
@@ -168,7 +164,7 @@ nav a {
     color: #CFCFCF;
     background-color: #293132;
     font-family: 'Padauk', sans-serif;
-    font-size: 90%;
+    font-size: 1em;
 }
 
 .footer-main-section div div p span svg {
