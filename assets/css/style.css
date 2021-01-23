@@ -123,6 +123,21 @@ nav a {
     min-height: 300px;   
 }
 
+
+/*--- CONTACT FORM ---*/
+.jumbotron-contact {
+    background: rgba(255, 255, 255, 0.9);
+    margin: 1rem 2rem 1rem 2rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border: 3px solid #474044;
+    border-radius: 2rem;
+}
+
+.jumbotron-contact div label {
+    font-weight: 500;
+}
+
+
 /*--- Hover.css ---*/
 
 
@@ -176,29 +191,9 @@ nav a {
     margin: 0px;
 }
 
-/*--- CONTACT FORM ---*/
-.jumbotron-contact {
-    background: rgba(255, 255, 255, 0.9);
-    margin: 1rem 2rem 1rem 2rem;
-    padding: 1rem 2rem 1rem 2rem;
-    border: 3px solid #474044;
-    border-radius: 2rem;
-}
-
-.jumbotron-contact div label {
-    font-weight: 500;
-}
 
 
 /*--- Media Query ---*/
-
-@media screen and (max-width: 600px) {
-  .preheader-flexbox-row-sm {
-    align-items: center;
-    justify-content: center;
-  }
-}
-
 
 
 /*-- Testing - TO BE DELETED  --*/
