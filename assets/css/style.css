@@ -146,10 +146,10 @@ nav a {
 /*--- Footer ---*/
 .footer-main-section {
     background-color: #293132;
-    margin-top: 0px;
+    /*margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 10px;*/
 }
 
 .footer-main-section div div h4 {
