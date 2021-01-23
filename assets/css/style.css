@@ -33,21 +33,13 @@ p {
 
 /*--- Heading ---*/
 
-.pre-header{
-    padding-top: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-bottom: 0px;
-    height: 20px;
-}
-
-.preheader div p{
+#pre-header div div p{
     color: #547AA5;
     font-size: 100%;
     font-family: 'Padauk', sans-serif;
 }
 
-.preheader div a {
+#pre-header div div p a {
     color: #547AA5;
     font-size: 100%;
     font-family: 'Padauk', sans-serif;
