@@ -207,6 +207,16 @@ nav a {
 
 .footer-main-section div div h4 {
     color: #547AA5;
+    text-shadow: -1px 1px 1px rgba(0,0,0,0.6);
+}
+
+.footer-main-section div div h4 a {
+    color: #547AA5;
+    text-decoration: none;
+}
+
+.footer-main-section div div h4 a:hover {
+    color: #7f9bbc;
 }
 
 .footer-main-section div div p {
@@ -233,6 +243,16 @@ nav a {
     background-color: #293132;
     font-family: 'Padauk', sans-serif;
     font-size: 1em;
+}
+
+.footer-main-section div div li a{
+    color: #547AA5;
+    text-decoration: none;
+    text-shadow: -1px 2px 2px rgba(0,0,0,0.6);
+}
+
+.footer-main-section div div li a:hover{
+    color: #7f9bbc;
 }
 
 .footer-disclaimer {
