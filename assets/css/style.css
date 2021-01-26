@@ -15,15 +15,6 @@
 
 
 /*--- Special Paddings Margins Text Rules ---*/
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.hr {
-    width: 100%;
-    border-top: 1px solid #474044;
-}
 
 /*--- General ---*/
 html {
