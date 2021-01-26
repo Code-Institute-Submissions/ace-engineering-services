@@ -37,6 +37,14 @@ p {
 
 /*--- Heading ---*/
 
+header {
+    z-index: 99999;
+}
+
+#pre-header {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
 #pre-header div div p{
     color: #547AA5;
     font-size: 100%;
