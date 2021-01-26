@@ -105,6 +105,14 @@ nav a {
     background: url("../images/markus-spiske-kK7uPfb2YWU-unsplash.jpg");
     background-position: center;
     background-repeat: no-repeat;
+
+.ace-card {
+    border: none;
+    background-color: seagreen;
+    /*box-shadow: 8px 14px 15px 8px rgba(0,0,0,0.66);
+    -webkit-box-shadow: 8px 14px 15px 8px rgba(0,0,0,0.66);
+    -moz-box-shadow: 8px 14px 15px 8px rgba(0,0,0,0.66);*/
+}
     background-size: cover;
 }
 
@@ -204,15 +212,13 @@ nav a {
     border: 1px solid #474044; 
 }
 
-.test-bg-red {
-    background-color: red;
+-color: red;
     padding: 0;
     margin: 0;
     border: 1px solid #474044;
 }
 
-.test-bg-blue {
-    background-color: blue;
+-color: blue;
     padding: 0;
     margin: 0;
     border: 1px solid #474044;
