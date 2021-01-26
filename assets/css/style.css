@@ -26,6 +26,41 @@ p {
     font-family: 'Merriweather', serif;  
 }
 
+/*--- General Button Styling ---*/
+
+.btn-primary {
+    background-color: #547AA5 !important;
+    color: #ffffff !important;
+    border: 2px solid #474044 !important;
+    box-shadow: 0 9px #999 !important;
+    border-radius: 0.5rem !important;
+}
+
+.btn-primary:active {
+    background-color: #47688c !important;
+    color: #ffffff !important;
+    border: 2px solid #474044 !important;
+    box-shadow: 0 5px #666 !important;
+    transform: translateY(4px);
+}
+
+.btn-primary:hover {
+    background-color: #47688c !important;
+    color: #ffffff !important;
+    border: 2px solid #474044 !important;
+    box-shadow: 0 9px #999 !important;
+    border-radius: 0.5rem !important;
+}
+
+.btn-primary:focus {
+    background-color: #47688c !important;
+    color: #ffffff !important;
+    border: 2px solid #474044 !important;
+    box-shadow: 0 5px #666 !important;
+    border-radius: 0.5rem !important;
+}
+
+
 /*--- Heading ---*/
 
 header {
