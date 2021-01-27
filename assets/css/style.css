@@ -145,13 +145,6 @@ nav a {
     display: inline-block;
 }
 
-.bg-wiring {
-    background: url("../images/markus-spiske-kK7uPfb2YWU-unsplash.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .ace-card {
     border: 0px;
     outline: none;
@@ -207,6 +200,12 @@ nav a {
     font-weight: 500;
 }
 
+.bg-contact-form {
+    background: url("../images/markus-spiske-kK7uPfb2YWU-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /*--- Hover.css ---*/
 
