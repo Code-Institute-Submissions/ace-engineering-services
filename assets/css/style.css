@@ -185,6 +185,14 @@ nav a {
     min-height: 300px;   
 }
 
+.bg-electrical-3 {
+    background: url("../images/electrical-custom-panel.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    min-height: 300px;   
+}
 
 /*--- CONTACT FORM ---*/
 .jumbotron-contact {
