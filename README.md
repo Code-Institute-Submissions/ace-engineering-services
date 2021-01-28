@@ -93,8 +93,8 @@ The website colors were chosen using [coolors.co](https://coolors.co/). The choi
 
 ## Wireframing
 Wireframing was done using Balsamiq under full-functional trial provided by Code Institute.
-png files are available in /wireframes folder for perusal.
-The style of the site has changed during development from a multipage traditional design to a more modern single scrolling page following discussions with my project mentor.
+Wireframes were developed for a [main page](wireframes/wf-home-page-rev-0-1.png), [standard section page](wireframes/wf-electrical-design-page-0-1.png) and a [contact page](wireframes/wf-contact-page-rev0-1.png).
+As the design progressed however, the site diverged significantly from multipage model to a single scolling site with all content on a single page.
 
 ---
 
