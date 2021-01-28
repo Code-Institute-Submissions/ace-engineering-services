@@ -129,14 +129,15 @@ As the design progressed however, the site diverged significantly from multipage
 **Languages**
 * HTML
 * CSS
-* Javascript
+* JavaScript
 
 **Tools & Libraries**
-* Git
-* Bootstrap
-* FontAwesome for icons used.
-* Popper
-* JQuery
+* [Git](https://git-scm.com/)
+* [Bootstrap](https://getbootstrap.com/)
+* [Font-Awesome](https://fontawesome.com/icons?d=gallery)
+* [Popper](https://popper.js.org/)
+* [JQuery](https://jquery.com/)
+* [Google fonts](https://fonts.google.com/)
 
 
 
