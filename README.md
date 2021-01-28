@@ -96,7 +96,7 @@ desired services. A separate page would provide a contact form to allow a user t
 **Fonts**
 [Google fonts](https://fonts.google.com/) have been used to give typographic style.
 font-family: **Merriweather** is used for serif fonts.
-font-family: **Padauk** is used for sans-serif fonts.
+font-family: **Roboto** is used for sans-serif fonts.
 
 **Icons**
 [FontAwesome](https://fontawesome.com/) free icons have been used throughout this project.
