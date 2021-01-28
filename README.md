@@ -91,6 +91,8 @@ desired services. A separate page would provide a contact form to allow a user t
  As the build progressed the benefits of a single-page-scrolling site became clear in terms of design efficiency, 
  loading times, ease of use and maintainability. The individual section pages were incorporated into the main page 
  initially and as the build progressed further, the contact form was moved in also.
+ The font Padauk was replaced with Roboto at a late stage in the project due to readability issues.
+ 
 
 
 **Fonts**
