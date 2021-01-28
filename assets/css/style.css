@@ -21,9 +21,9 @@ html {
   scroll-behavior: smooth;
 }
 
-p {
+* {
     color: #293132;
-    font-family: 'Merriweather', serif;  
+    font-family: 'Padauk', sans-serif;
 }
 
 .hr-light {
