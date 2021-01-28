@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Padauk:wght@400;700&display=swap');
 
 /* font-family: 'Merriweather', serif; */
-/* font-family: 'Padauk', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
 
 /*--- Colors ---*/
 /* Primary Dark  293132 Charleston Green */
@@ -23,7 +23,7 @@ html {
 
 * {
     color: #293132;
-    font-family: 'Padauk', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .hr-light {
