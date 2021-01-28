@@ -74,10 +74,24 @@
 ### Design Choices
 ---
 In designing this site I took inspiration from a few engineering websites but most significantly, [Harp Engineering](http://www.harpelectricaleng.com/) .
-Engineering is a very broad discipline and companies are generally highly-specialised in the services they provide. Hence, the most difficult task for any potential visitor to an engineering site is to find out what exact services a particular company provides. Generally an engineer visiting a site will make a decision in less than 10 seconds whether a particular site has what they are looking for. Hence, there is urgency to convey:
+Engineering is a very broad discipline and companies are generally highly-specialised in the services they provide. 
+Hence, the most difficult task for any potential visitor to an engineering site is to find out what exact services 
+a particular company provides. Generally an engineer visiting a site will make a decision in less than 10 seconds 
+whether a particular company can provide what they are looking for. Hence, there is urgency to convey:
 * We operate in the **Industrial Sector**.
 * We are primarily **Electrical and Automation Engineers**.
 * We are a **hands-on** technical company **not purely consultants**.
+
+As a first iteration, the choice was made to design a multipage site with overview information on the main page 
+underneath a captivating hero image. A simple white pre-header would contain the basic contact information above 
+a Navbar. The four main services of the company would be clearly displayed under the hero image of an industrial 
+site. Links in the Navbar as well as the individual section overiews, would allow a visitor to jump off to their
+desired services. A separate page would provide a contact form to allow a user to submit details of their company,
+ contact details and a short description of a potential project or query.
+ As the build progressed the benefits of a single-page-scrolling site became clear in terms of design efficiency, 
+ loading times, ease of use and maintainability. The individual section pages were incorporated into the main page 
+ initially and as the build progressed further, the contact form was moved in also.
+
 
 **Fonts**
 [Google fonts](https://fonts.google.com/) have been used to give typographic style.
