@@ -73,22 +73,22 @@
 
 ### Design Choices
 ---
-In designing this site I took inspiration from a few engineering websites but most significantly, [www.harpelectricaleng.com](http://www.harpelectricaleng.com/) .
+In designing this site I took inspiration from a few engineering websites but most significantly, [Harp Engineering](http://www.harpelectricaleng.com/) .
 Engineering is a very broad discipline and companies are generally highly-specialised in the services they provide. Hence, the most difficult task for any potential visitor to an engineering site is to find out what exact services a particular company provides. Generally an engineer visiting a site will make a decision in less than 10 seconds whether a particular site has what they are looking for. Hence, there is urgency to convey:
 * We operate in the **Industrial Sector**.
 * We are primarily **Electrical and Automation Engineers**.
 * We are a **hands-on** technical company **not purely consultants**.
 
 **Fonts**
-Google fonts have been used to give typographic style. [https://fonts.google.com](https://fonts.google.com/)
+[Google fonts](https://fonts.google.com/) have been used to give typographic style.
 font-family: **Merriweather** is used for serif fonts.
 font-family: **Padauk** is used for sans-serif fonts.
 
 **Icons**
-FontAwesome free icons have been used throughout this project. [https://fontawesome.com/](https://fontawesome.com/)
+[FontAwesome](https://fontawesome.com/) free icons have been used throughout this project.
 
 **Colours**
-The website colors were chosen using [https://coolors.co/](https://coolors.co/). The choice was based on a providing a sense of calm reliable colours. Rich darks for backgrounds and menus. Blues for other elements and headings.
+The website colors were chosen using [coolors.co](https://coolors.co/). The choice was based on a providing a sense of calm reliable colours. Rich darks for backgrounds and menus. Blues for other elements and headings.
 ![Color-Selection](/wireframes/ace-engineering-site-colors.jpg)
 
 ## Wireframing
