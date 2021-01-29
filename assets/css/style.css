@@ -227,12 +227,12 @@ nav a {
     text-shadow: -1px 1px 1px rgba(0,0,0,0.6);
 }
 
-.footer-main-section div div h4 a {
+.footer-anchor {
     color: #547AA5;
     text-decoration: none;
 }
 
-.footer-main-section div div h4 a:hover {
+.footer-anchor:hover {
     color: #7f9bbc;
 }
 
