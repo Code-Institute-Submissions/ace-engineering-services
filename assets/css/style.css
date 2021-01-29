@@ -122,6 +122,27 @@ nav a {
     color: #afafaf;
 }
 
+/* Floating nav button and arrow up */
+.floating-button {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:20px;
+	right:20px;
+	background-color:rgba(84,122,165,0.75);
+	color:#FFF;
+	border-radius:30px;
+	text-align:center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 9999999;
+}
+
+.fa-arrow-up {
+    color: rgba(255,255,255,0.75);
+    font-size: 40px;
+}
+
+
 /* Main Sections */
 .hero-image {
     padding-top: 5%;
@@ -229,11 +250,6 @@ nav a {
     background-size: cover;
 }
 
-/* Hover.css */
-
-
-
-
 /* Footer */
 #footer-main-section {
     background-color: #293132;
@@ -282,31 +298,21 @@ nav a {
     background-color: #CFCFCF;
 }
 
-/* Media Query */
-
-
-.floating-button {
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:20px;
-	right:20px;
-	background-color:rgba(84,122,165,0.75);
-	color:#FFF;
-	border-radius:30px;
-	text-align:center;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 9999999;
-}
+/* Hover.css */
 
 .floating-button:hover {
     background-color:rgba(84,122,165,1);
-}
-.fa-arrow-up {
-    color: rgba(255,255,255,0.75);
-    font-size: 40px;
 }
 
 .fa-arrow-up:hover {
     color: rgba(255,255,255,1);
 }
+
+
+
+
+/* Media Query */
+
+
+
+
