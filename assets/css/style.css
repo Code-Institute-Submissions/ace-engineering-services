@@ -258,10 +258,12 @@ nav a {
 
 .footer-anchor:hover{
     color: #7f9bbc;
+    text-decoration: none;
 }
 
 #footer-disclaimer {
     background-color: #CFCFCF;
+    margin: 0;
 }
 
 /* Media Query */
