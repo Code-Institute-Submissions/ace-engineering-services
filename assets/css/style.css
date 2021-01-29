@@ -35,7 +35,7 @@ html {
 }
 
 /* General Button Styling */
-.btn-primary {
+.btn-ace-standard {
     background-color: #547AA5 !important;
     color: #ffffff !important;
     border: 2px solid #474044 !important;
@@ -43,7 +43,7 @@ html {
     border-radius: 0.5rem !important;
 }
 
-.btn-primary:active {
+.btn-ace-standard:active {
     background-color: #47688c !important;
     color: #ffffff !important;
     border: 2px solid #474044 !important;
@@ -51,7 +51,7 @@ html {
     transform: translateY(4px);
 }
 
-.btn-primary:hover {
+.btn-ace-standard:hover {
     background-color: #47688c !important;
     color: #ffffff !important;
     border: 2px solid #474044 !important;
@@ -59,7 +59,7 @@ html {
     border-radius: 0.5rem !important;
 }
 
-.btn-primary:focus {
+.btn-ace-standard:focus {
     background-color: #47688c !important;
     color: #ffffff !important;
     border: 2px solid #474044 !important;
