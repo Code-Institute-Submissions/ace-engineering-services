@@ -77,7 +77,7 @@ header {
     background-color: rgba(255, 255, 255, 0.75);
 }
 
-#pre-header div div p{
+.pre-header-text{
     color: #547AA5;
     font-size: 100%;
     font-family: 'Padauk', sans-serif;
@@ -88,6 +88,10 @@ header {
     font-size: 100%;
     font-family: 'Padauk', sans-serif;
     text-decoration: none;
+}
+
+.general-icon {
+    color: #547AA5;
 }
 
 .main-header {
