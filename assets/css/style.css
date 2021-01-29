@@ -159,7 +159,8 @@ nav a {
 }
 
 .image-title {
-    font-family: 'Padauk', sans-serif;    /* BUGFIX REQUIRED   */
+    font-family: 'Roboto', sans-serif;
+    font-size: 90%;
     color: #4F5165;
 }
 
