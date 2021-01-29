@@ -221,6 +221,22 @@ nav a {
     background: url("../images/motion-machine.jpg");
 }
 
+.bg-automation-automotive-hmi {
+    background: url("../images/automation-automotive-hmi.jpg");
+}
+
+.bg-automation-hmi-screen {
+    background: url("../images/automation-hmi-screen.jpg");
+}
+
+.bg-automation-testrig {
+    background: url("../images/automation-process-testrig.jpg");
+}
+
+.bg-safety-general {
+    background: url("../images/safety-general.jpg");
+}
+
 .bg-image-standard {
     background-position: center;
     background-repeat: no-repeat;
