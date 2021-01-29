@@ -242,17 +242,15 @@ nav a {
     font-size: 1em;
 }
 
-.footer-main-section div div ul {
+.footer-list-group {
     list-style: none;
-    /*padding: 0 0 0 0;
-    margin: 0;                                        For Simen review - these have been replaced with Bootstrap p- and m- classes*/
     color: #CFCFCF;
     background-color: #293132;
     font-family: 'Padauk', sans-serif;
     font-size: 1em;
 }
 
-.footer-main-section div div li {
+.footer-list-group-item {
     border-color: #293132;
     color: #CFCFCF;
     background-color: #293132;
