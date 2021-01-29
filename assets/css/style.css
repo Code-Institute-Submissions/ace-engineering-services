@@ -178,7 +178,6 @@ nav a {
     border-radius: 50%;
     background-color: 212121;
     z-index:9999999;
-
 }
 
 .ace-card {
@@ -289,11 +288,6 @@ nav a {
     text-shadow: -1px 2px 2px rgba(0,0,0,0.6);
 }
 
-.footer-anchor:hover{
-    color: #7f9bbc;
-    text-decoration: none;
-}
-
 #footer-disclaimer {
     background-color: #CFCFCF;
 }
@@ -308,7 +302,10 @@ nav a {
     color: rgba(255,255,255,1);
 }
 
-
+.footer-anchor:hover{
+    color: #7f9bbc;
+    text-decoration: none;
+}
 
 
 /* Media Query */
