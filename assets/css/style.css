@@ -159,54 +159,38 @@ nav a {
 }
 
 .image-title {
-    font-family: 'Padauk', sans-serif;
+    font-family: 'Padauk', sans-serif;    /* BUGFIX REQUIRED   */
     color: #4F5165;
 }
 
-.bg-electrical-1 {
+.bg-electrical-semi-panel {
     background: url("../images/electrical-semi-panel.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    min-height: 300px;    
 }
 
-.bg-electrical-2 {
+.bg-electrical-heavy-panel {
     background: url("../images/electrical-heavy-panel.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    min-height: 300px;   
 }
 
-.bg-electrical-3 {
+.bg-electrical-custom-panel {
     background: url("../images/electrical-custom-panel.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    min-height: 300px;   
 }
 
-.bg-motion-1 {
+.bg-motion-motor-fan {
     background: url("../images/motion-motorfan.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    min-height: 300px;   
 }
 
-.bg-motion-2 {
+.bg-motion-machine {
     background: url("../images/motion-machine.jpg");
+}
+
+.bg-image-standard {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    min-height: 300px;   
+    min-height: 300px;
 }
+
 /*--- CONTACT FORM ---*/
 .jumbotron-contact {
     background: rgba(255, 255, 255, 0.9);
