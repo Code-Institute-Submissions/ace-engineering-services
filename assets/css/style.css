@@ -222,7 +222,8 @@ nav a {
     background-color: #293132;
 }
 
-.footer-heading {
+.footer-heading,
+.footer-icon {
     color: #547AA5;
     text-shadow: -1px 1px 1px rgba(0,0,0,0.6);
 }
