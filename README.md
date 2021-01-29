@@ -164,12 +164,22 @@ CSS code has been tested using the [CSS validator](http://jigsaw.w3.org/css-vali
     190		-webkit-box-shadow is an unknown vendor extension
     191		-moz-box-shadow is an unknown vendor extension
     293	.footer-list-group-item	Same color for background-color and border-color
+#### Fixes
+* Removed redundant id #btn-floating-home from code.
+* Set border: none; in .footer-list-group-item class.
+
 
 **Responsiveness**
-
+* The site has been implemented using Bootstrap throughout and built with a mobile first philosophy.
+* Responsiveness is quite good going from mobile to larger screens and navbar collapses predictably. 
+The back to top button suggested by my mentor makes returning to the top of the screen straight-forward and intuitive.
+* Some of the propotioning on images could be improved with media queries and a sticky header would be an enhancement 
+but overall the test is a pass.
 
 **Design**
-
+* The design of the site was inspired by the [Harp Engineering](http://www.harpelectricaleng.com/) website following their 
+pre-header with easily accessible contact details. Rich dark greys are paired with cool blues to give a calming color selection.
+* Results overall look quite good so this is a **PASS**.
 
 **Contact form**
 * The contact form is based on sample code provided by Bootstrap and modified to suit the fields required.
