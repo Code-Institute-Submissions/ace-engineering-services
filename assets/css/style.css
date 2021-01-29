@@ -1,19 +1,20 @@
-/*--- Fonts ---*/
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Padauk:wght@400;700&display=swap');
 
 /* font-family: 'Roboto', sans-serif; */
 /* font-family: 'Merriweather', serif; */
 
-/*--- Colors ---*/
+/* Colors */
 /* Primary Dark  293132 Charleston Green */
 /* Secondary Dark 474044 Dark Liver */
 /* Primary Brand 4F5165 Independence */
 /* Secondary Brand 547AA5 Blue Yonder  */
 /* Tertiary Brand 50D8D7 */
 
-/*--- Special Paddings Margins Text Rules ---*/
 
-/*--- General ---*/
+/* Special Paddings Margins Text Rules */
+
+/* General */
 html {
   scroll-behavior: smooth;
 }
@@ -33,7 +34,7 @@ html {
     box-shadow: 1px 2px 2px rgba(0,0,0,0.6);
 }
 
-/*--- General Button Styling ---*/
+/* General Button Styling */
 .btn-primary {
     background-color: #547AA5 !important;
     color: #ffffff !important;
@@ -66,8 +67,7 @@ html {
     border-radius: 0.5rem !important;
 }
 
-
-/*--- Heading ---*/
+/* Heading */
 
 header {
     z-index: 99999;
@@ -117,7 +117,7 @@ nav a {
     font-size: 2.5rem;
 }
 
-/*--- Main Sections ---*/
+/* Main Sections */
 .hero-image {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -146,7 +146,6 @@ nav a {
 .ace-card {
     border: 0;
     outline: none;
-    
 }
 
 .ace-card-body {
@@ -158,6 +157,7 @@ nav a {
     -moz-box-shadow: 0 5px 7px 3px rgba(71,64,68,0.55);
 }
 
+/*  Images and image titles */
 .image-title {
     font-family: 'Roboto', sans-serif;
     font-size: 90%;
@@ -192,7 +192,7 @@ nav a {
     min-height: 300px;
 }
 
-/*--- CONTACT FORM ---*/
+/* CONTACT FORM */
 .jumbotron-contact {
     background: rgba(255, 255, 255, 0.9);
     margin: 1rem 2rem 1rem 2rem;
@@ -212,18 +212,14 @@ nav a {
     background-size: cover;
 }
 
-/*--- Hover.css ---*/
+/* Hover.css */
 
 
 
 
-/*--- Footer ---*/
+/* Footer */
 .footer-main-section {
     background-color: #293132;
-    /*margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 20px;
-    padding-bottom: 10px;*/
 }
 
 .footer-main-section div div h4 {
@@ -257,8 +253,6 @@ nav a {
 }
 
 .footer-main-section div div li {
-    /*padding: 0 0 0 0;
-    margin: 0;                                        For Simen review - these have been replaced with Bootstrap p- and m- classes*/
     border-color: #293132;
     color: #CFCFCF;
     background-color: #293132;
@@ -281,30 +275,4 @@ nav a {
     margin: 0;
 }
 
-
-
 /*--- Media Query ---*/
-
-
-/*-- Testing - TO BE DELETED  --*/
-
-.test-bg-yellow {
-    background-color: yellow;
-    padding: 0;
-    margin: 0;
-    border: 1px solid #474044; 
-}
-
-.test-bg-red {
-    background-color: red;
-    padding: 0;
-    margin: 0;
-    border: 1px solid #474044; 
-}
-
-.test-bg-green {
-    background-color: green;
-    padding: 0;
-    margin: 0;
-    border: 1px solid #474044;
-}
