@@ -251,8 +251,8 @@ nav a {
 /* CONTACT FORM */
 .jumbotron-contact {
     background: rgba(255, 255, 255, 0.9);
-    margin: 1rem 2rem 1rem 2rem;
-    padding: 1rem 2rem 1rem 2rem;
+    margin: 0;
+    padding: 1rem 1rem 1rem 1rem;
     border: 3px solid #474044;
     border-radius: 2rem;
 }
@@ -342,5 +342,10 @@ nav a {
 
     .ace-section-heading {
         font-size: 2.8rem;
+    }
+
+    .jumbotron-contact {
+        margin: 1rem 2rem 1rem 2rem;
+        padding: 1rem 2rem 1rem 2rem;
     }
 }
