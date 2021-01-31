@@ -159,8 +159,8 @@ nav a {
 
 .jumbotron-hero {
     background: rgba(255, 255, 255, 0.75);
-    margin: 1rem 2rem 1rem 2rem;
-    padding: 1rem 2rem 1rem 2rem;
+    margin: 1rem 0.5rem 1rem 0.5rem;
+    padding: 1rem 1rem 1rem 1rem;
     border: 3px solid #474044;
     border-radius: 2rem;
 }
