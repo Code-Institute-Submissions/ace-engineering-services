@@ -167,7 +167,7 @@ nav a {
 
 .jumbotron-heading {
     text-align: center;
-    font-size: 2.8rem;
+    font-size: 2rem;
     font-weight: 900;
     font-family: 'Roboto', sans-serif;
 }
@@ -192,7 +192,7 @@ nav a {
 
 .ace-section-heading {
     text-align: center;
-    font-size: 2.8rem;
+    font-size: 2rem;
     font-weight: 900;
     padding: 1.2rem;
 }
@@ -329,6 +329,18 @@ nav a {
 
 /* Media Query */
 
+@media only screen and (min-width: 575.98px) {
 
+    .jumbotron-hero {
+        margin: 1rem 2rem 1rem 2rem;
+        padding: 1rem 2rem 1rem 2rem;
+    }
 
+    .jumbotron-heading {
+        font-size: 2.8rem;
+    }
 
+    .ace-section-heading {
+        font-size: 2.8rem;
+    }
+}
