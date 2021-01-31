@@ -166,7 +166,7 @@ nav a {
 .hero-image {
     padding-top: 5%;
     padding-bottom: 5%;
-    background: url("../images/dimitry-anikin-ATyawSn-NsE-unsplash.jpg");
+    background: url("../images/dimitry-anikin-ATyawSn-NsE-unsplash-lowres.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -283,7 +283,7 @@ nav a {
 }
 
 .bg-contact-form {
-    background: url("../images/markus-spiske-kK7uPfb2YWU-unsplash.jpg");
+    background: url("../images/markus-spiske-kK7uPfb2YWU-unsplash-lowres.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -397,5 +397,25 @@ nav a {
     #ace-safety,
     #ace-contact-form {
         scroll-margin-top: 124px;   /* Large screens 124px header */
+    }
+
+    .hero-image {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: url("../images/dimitry-anikin-ATyawSn-NsE-unsplash.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    transition: all 7s ease-in-out;
+    -moz-transition: all 7s ease-in-out;
+    -webkit-transition: all 7s ease-in-out;    
+    }
+
+    .bg-contact-form {
+    background: url("../images/markus-spiske-kK7uPfb2YWU-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     }
 }
