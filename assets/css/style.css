@@ -273,7 +273,7 @@ nav a {
 /* CONTACT FORM */
 .jumbotron-contact {
     background: rgba(255, 255, 255, 0.9);
-    margin: 0;
+    margin: 1rem 0rem 1rem 0rem;
     padding: 1rem 1rem 1rem 1rem;
     border: 3px solid #474044;
     border-radius: 2rem;
