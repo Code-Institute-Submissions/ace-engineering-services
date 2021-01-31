@@ -20,7 +20,7 @@
         * Colours
 * Technologies
 * Features
-  * Features that have been developed
+    * Features that have been developed
     * Features that will be implemented in the future
 * Testing
 * Bugs
@@ -234,6 +234,30 @@ pre-header with easily accessible contact details. Rich dark greys are paired wi
 * **Data validation** is implemented on **key fields**.
 * **Submit button does not function** as is understood under the MS1 guidelines because there is no back-end code present.
 * **Results**: The data validation fields have all been individually tested and **PASS**.
+
+### User Stories
+
+<details>
+  <summary>User stories were tested using Google Chrome and developer tools. The only item of note which could be described as noteable sub-par would be the loading speed which needs improvement. Click dropdown to see individual tests.</summary>
+  
+  #### Summary of user tests
+
+  * Test: As a **user**, I want to see all the main services this company can offer at a glance so that in a single scroll of the homepage, I know exactly what this company has to offer.
+  * Result: ![User test image 1](wireframes/ace-user-story-1.jpg)
+  * Test: As a **user**, I want **fast loading-times** for pages.
+  * Result: ![User test image 2](wireframes/ace-user-story-2.jpg)
+  * Test: As a **user**, I want a **simple and well laid-out** website that gives the impression of these complex topics being made simple.
+  * Result: ![User test image 3](wireframes/ace-user-story-3.jpg)
+  * Test: As a **user**, I want to see **modern design** to show that the site owner is au fait with the latest developments in technology.
+  * Result: ![User test image 4](wireframes/ace-user-story-4.jpg)
+  * Test: As a **user**, I want to see some **examples of previous projects** done by this company.
+  * Result: ![User test image 5](wireframes/ace-user-story-5.jpg)
+  * Test: As a **user**, I want to see references to **industry standards** to be sure the deliverables will meet my company's specifications.
+  * Result: ![User test image 6](wireframes/ace-user-story-6.jpg)
+  * Test: As a **user**, I want to be able to **contact** the site owner and give a simple description of a potential project.
+  * Result: ![User test image 7](wireframes/ace-user-story-7.jpg)
+</details>
+
 
 ## Bugs
 
