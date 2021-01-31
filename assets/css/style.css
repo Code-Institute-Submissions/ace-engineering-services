@@ -370,3 +370,27 @@ nav a {
         padding: 1rem 2rem 1rem 2rem;
     }
 }
+
+@media only screen and (min-width: 767.98px) {
+
+    #ace-hero,
+    #ace-electrical,
+    #ace-motors,
+    #ace-automation,
+    #ace-safety,
+    #ace-contact-form {
+        scroll-margin-top: 148px;   /* Large screens 148px header */
+    }
+}
+
+@media only screen and (min-width: 991.98px) {
+   
+    #ace-hero,
+    #ace-electrical,
+    #ace-motors,
+    #ace-automation,
+    #ace-safety,
+    #ace-contact-form {
+        scroll-margin-top: 124px;   /* Large screens 124px header */
+    }
+}
