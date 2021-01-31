@@ -153,7 +153,7 @@ nav a {
 /* Main Sections */
 
 /* Scroll Margin Added to prevent anchors running underneath the sticky header */
-/* Credit:  https://gomakethings.com/how-to-prevent-anchor-links-from-scrolling-behind-a-sticky-header-with-one-line-of-css/ */
+/* Credit:  https://gomakethings.com/how-to-prevent-anchor-links-from-scrolling-behind-a-sticky-header-with-one-line-of-css/ written by Chris Ferdinandi*/
 #ace-hero,
 #ace-electrical,
 #ace-motors,
@@ -297,7 +297,6 @@ nav a {
 .footer-heading,
 .footer-icon {
     color: #7f9bbc;
-    /*text-shadow: -1px 1px 1px rgba(0,0,0,0.6);*/
 }
 
 .footer-text {
@@ -325,7 +324,6 @@ nav a {
 .footer-anchor{
     color: #7f9bbc;
     text-decoration: none;
-    /*text-shadow: -1px 2px 2px rgba(0,0,0,0.6);*/
 }
 
 #ace-footer-disclaimer p{
@@ -354,7 +352,6 @@ nav a {
     color: #547AA5;
     text-decoration: none;
 }
-
 
 /* Media Query */
 
