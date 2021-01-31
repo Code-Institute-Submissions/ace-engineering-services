@@ -52,7 +52,7 @@
 * As a **user**, I want to see **modern design** to show that the site owner is au fait with the latest developments in technology.
 * As a **user**, I want to see some **examples of previous projects** done by this company.
 * As a **user**, I want to see references to **industry standards** to be sure the deliverables will meet my company's specifications.
-* As a **user**, I want to be able to contact the site owner and give a simple description of a potential project.
+* As a **user**, I want to be able to **contact** the site owner and give a simple description of a potential project.
 
 ### Site Owner Goals
 
@@ -84,7 +84,7 @@
 In designing this site I took inspiration from a few engineering websites but most significantly, [Harp Engineering](http://www.harpelectricaleng.com/) .
 Engineering is a very broad discipline and companies are generally highly-specialised in the services they provide.
 Hence, the most difficult task for any potential visitor to an engineering site is to find out what exact services
-a particular company provides. Generally an engineer visiting a site will make a decision in less than 10 seconds
+a particular company provides. Generally a visitor to a site will make a decision in less than 10 seconds
 whether a particular company can provide what they are looking for. Hence, there is urgency to convey:
 
 * We operate in the **Industrial Sector**.
@@ -97,17 +97,17 @@ a Navbar. The four main services of the company would be clearly displayed under
 site. Links in the Navbar as well as the individual section overiews, would allow a visitor to jump off to their
 desired services. A separate page would provide a contact form to allow a user to submit details of their company,
  contact details and a short description of a potential project or query.
- As the build progressed the benefits of a single-page-scrolling site became clear in terms of design efficiency,
+ As the build progressed, the benefits of a single-page-scrolling site became clear in terms of design efficiency,
  loading times, ease of use and maintainability. The individual section pages were incorporated into the main page
- initially and as the build progressed further, the contact form was moved in also.
- The font Padauk was replaced with Roboto at a late stage in the project due to readability issues.
+ initially but as the build progressed further, the contact form was moved in also.
+ The font Padauk was replaced with Roboto at a late stage in the project due to readability issues but Padauk was 
+ later re-introduced for special texts for pre-headers and footers.
 
 #### Fonts
 
 [Google fonts](https://fonts.google.com/) have been used to give typographic style.
-font-family: **Merriweather** is used for serif fonts.
-font-family: **Roboto** is used for sans-serif fonts.
-font-family: **Padauk** is used for special san-serif fonts.
+font-family: **Roboto** is used for most text on the site.
+font-family: **Padauk** is used for special sans-serif fonts such as the pre-header and footer where a more compact and stylish font are desired.
 
 #### Icons
 
@@ -138,9 +138,10 @@ As the design progressed however, the site diverged significantly from multipage
 
 **Features** that will be **implemented** in the **future:**
 
-* **sticky-top** would be a nice feature to add minimising the header and sticking to the top of the browser on scrolling down. It was not possible to get this working during the project despite a lot of effort and code re-writes.
-
-*
+* The **sticky-top** could be enhanced by having the white pre-header disappear on scroll leaving the main nav bar on top. This feature was beyond both my abilities and time allowance during the project but would be a nice addition.
+* The styling on some of the section photos could definitely be improved with media queries to change the heights and widths according to screen width. Possibly using flexbox rather than bootstrap grid could have made the difference here. Again, it was beyond the time frame to achieve this.
+* Some additional styling around the typefaces and font choices could improve the look of the section text. Possibly, a lightly serifed font would look better than the Roboto in place at the moment.
+* Adding carosels for project images or popouts would also be a notable enhancement.
 
 ## Technologies Used
 
@@ -217,14 +218,14 @@ CSS code has been tested using the [CSS validator](http://jigsaw.w3.org/css-vali
 
 * The site has been implemented using Bootstrap throughout and built with a mobile first philosophy.
 * Responsiveness is quite good going from mobile to larger screens and navbar collapses predictably.
-The back to top button suggested by my mentor makes returning to the top of the screen straight-forward and intuitive.
-* Some of the propotioning on images could be improved with media queries and a sticky header would be an enhancement
-but overall the test is a pass.
+* The back to top button suggested by my mentor makes returning to the top of the screen straight-forward and intuitive.
+* Some of the propotioning on images could be improved with media queries but overall the test is a **PASS**.
 
 ### Design
 
 * The design of the site was inspired by the [Harp Engineering](http://www.harpelectricaleng.com/) website following their
 pre-header with easily accessible contact details. Rich dark greys are paired with cool blues to give a calming color selection.
+* All interactive elements have been styled using the site's colour palette or slight gradients of those colours.
 * Results overall look quite good so this is a **PASS**.
 
 ### Contact form
@@ -261,12 +262,14 @@ from [gomakethings.com](https://gomakethings.com/how-to-prevent-anchor-links-fro
 
 ### Testing Bugs
 
-*
-*
+* A few bugs were thrown up by the HTML Validator and CSS Validator. The solutions are given above in the **HTML Test** and **CSS Test** Sections.
 
 ## Deployment
 
 ---
+
+The site has been deployed on [GitHub Pages](https://pages.github.com/) with under the following link [Ace Engineering Services](https://starrant.github.io/ace-engineering-services/index.html).
+
 
 ## Credits
 
@@ -279,8 +282,8 @@ from [gomakethings.com](https://gomakethings.com/how-to-prevent-anchor-links-fro
 * Code for button styling has been based on modifed versions of code from [w3schools animated button pressed effect](https://www.w3schools.com/css/tryit.asp?filename=trycss_buttons_animate3).
 * Code for preventing the content disappearing under the navbar when clicking on links was found on [gomakethings.com](https://gomakethings.com/how-to-prevent-anchor-links-from-scrolling-behind-a-sticky-header-with-one-line-of-css/). It was just a single line of CSS but this saved the day.
 * Code for auto-collapsing the navbar when a link is clicked was found on [mdbootstrap.com](https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/) and written by [Marta Wierzbicka](https://mdbootstrap.com/user/marta-szymanska/)
-
-*
+* The website [w3schools](https://www.w3schools.com/) was used heavily as a reference for HTML, CSS and Bootstrap throughout the project. As were [GetBootstrap](https://getbootstrap.com/), [StackOverflow](https://stackoverflow.com/) and [CSSTricks](https://css-tricks.com/).
+* The [w3schools color mixer tool](https://www.w3schools.com/colors/colors_mixer.asp) was used to get lighter or darker variants of the site's main colors for hover effects, etc.
 
 ### Special Thanks
 
