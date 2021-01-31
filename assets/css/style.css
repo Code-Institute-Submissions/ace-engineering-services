@@ -149,14 +149,14 @@ nav a {
 /* Main Sections */
 
 /* Scroll Margin Added to prevent anchors running underneath the sticky header */
-
+/* Credit:  https://gomakethings.com/how-to-prevent-anchor-links-from-scrolling-behind-a-sticky-header-with-one-line-of-css/ */
 #ace-hero,
 #ace-electrical,
 #ace-motors,
 #ace-automation,
 #ace-safety,
 #ace-contact-form {
-    scroll-margin-top: 172px;
+    scroll-margin-top: 172px;   /* Small screens 172px header */
 }
 
 .hero-image {
