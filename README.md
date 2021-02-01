@@ -1,8 +1,8 @@
 # ACE Engineering : Automation Control Electrical
 
-*Professional engineering services for all your industrial requirements.
+* Professional engineering services for all your industrial requirements.
 
-![ACE-Company-Logo](/assets/images/ACE_Logo_Boxed.jpg)
+![ACE-Web-Mockup](wireframes/ace-techsini-multidevice-mockup.png)
 
 ## Contents
 
@@ -33,7 +33,10 @@
 
 ### Project Goals
 
-* The goal of this project is to create a digital launchpad for a small electrical engineering company. The main services on offer need to be clearly demonstrated on the home page through simple bullet-points. Links to section pages provide further information on each of these services. A simple contact page allows users to send a business request.
+* The goal of this project is to create a digital launchpad for a small electrical engineering company. 
+The main services on offer need to be clearly demonstrated on the landing section through simple bullet-points. 
+Links to sections provide further information on each of these services. A simple contact page allows 
+users to send a business request.
 
 ### User Goals
 
@@ -66,7 +69,7 @@
 #### Requirements
 
 * Easily navigate with a **navbar**.
-* Provide a simple overview on the main page and a little more detail in sub pages.
+* Provide a simple overview on the main page and a little more detail in sub sections.
 * Fast **loading-times**.
 * **Contact form** for users to send a project information request.
 * Company **contact** details readily accessible on the **header and footer** of every page.
@@ -337,6 +340,7 @@ The site has been deployed on [GitHub Pages](https://pages.github.com/) with und
 * Code for auto-collapsing the navbar when a link is clicked was found on [mdbootstrap.com](https://mdbootstrap.com/support/general/auto-close-navbar-when-click-on-link-responsive-mode/) and written by [Marta Wierzbicka](https://mdbootstrap.com/user/marta-szymanska/)
 * The website [w3schools](https://www.w3schools.com/) was used heavily as a reference for HTML, CSS and Bootstrap throughout the project. As were [GetBootstrap](https://getbootstrap.com/), [StackOverflow](https://stackoverflow.com/) and [CSSTricks](https://css-tricks.com/).
 * The [w3schools color mixer tool](https://www.w3schools.com/colors/colors_mixer.asp) was used to get lighter or darker variants of the site's main colors for hover effects, etc.
+* [Techsini](http://techsini.com/multi-mockup/index.php) was used to generate the multidevice image shown on at the start of the readme.
 
 ### Special Thanks
 
