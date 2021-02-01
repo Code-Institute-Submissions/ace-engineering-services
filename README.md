@@ -20,7 +20,7 @@
         * Colours
 * Technologies
 * Features
-    * Features that have been developed
+  * Features that have been developed
     * Features that will be implemented in the future
 * Testing
 * Bugs
@@ -41,7 +41,6 @@
 * Find information about **motor and drive services**.
 * Find information about **automation services**.
 * Find information about **machine safety services**.
-* Find information about **ATEX services**.
 * **Send an email** to the site owner.
 
 ### User Stories
@@ -100,7 +99,7 @@ desired services. A separate page would provide a contact form to allow a user t
  As the build progressed, the benefits of a single-page-scrolling site became clear in terms of design efficiency,
  loading times, ease of use and maintainability. The individual section pages were incorporated into the main page
  initially but as the build progressed further, the contact form was moved in also.
- The font Padauk was replaced with Roboto at a late stage in the project due to readability issues but Padauk was 
+ The font Padauk was replaced with Roboto at a late stage in the project due to readability issues but Padauk was
  later re-introduced for special texts for pre-headers and footers.
 
 #### Fonts
@@ -134,7 +133,9 @@ As the design progressed however, the site diverged significantly from multipage
 * Simple navigation on all screen sizes.
 * Contact form with text entry, drop-downs and check boxes.
 * Pre-header and footer with contact information readily at hand to a person opening the first page.
-* Simple but attractive design, imagery and jumbotrons on all the main pages.
+* Simple but attractive design, imagery and jumbotrons.
+* Sticky header with collapse on smaller screen sizes to burger navigation icon and auto-closing on clicking a link.
+* Floating return to top button.
 
 **Features** that will be **implemented** in the **future:**
 
@@ -142,6 +143,9 @@ As the design progressed however, the site diverged significantly from multipage
 * The styling on some of the section photos could definitely be improved with media queries to change the heights and widths according to screen width. Possibly using flexbox rather than bootstrap grid could have made the difference here. Again, it was beyond the time frame to achieve this.
 * Some additional styling around the typefaces and font choices could improve the look of the section text. Possibly, a lightly serifed font would look better than the Roboto in place at the moment.
 * Adding carosels for project images or popouts would also be a notable enhancement.
+* Speed optimisation is an area that should be addressed with an effort to optimise image and font loading.
+* Limiting the width of the main content to about 2000px and greying out a background at screen widths beyond this would definitely help visually on bigger monitor sizes.
+* Further work is required on the animation effect of the main hero image to make it work more reliably. At the moment, the ease in effect does not happen every time.
 
 ## Technologies Used
 
@@ -189,6 +193,7 @@ HTML code has been tested using the [HTML Validator](https://validator.w3.org/) 
 
 * Erroneous placeholder reference deleted from the form dropdown list.
 * Misspelling between the label and the id fixed for the form's given name entry.
+* Re-Testing after these corrections gave a **PASS**.
 
 ### CSS Test
 
@@ -213,6 +218,7 @@ CSS code has been tested using the [CSS validator](http://jigsaw.w3.org/css-vali
 * Removed redundant id #btn-floating-home from code.
 * Set border: none; in .footer-list-group-item class.
 * Errors for "-moz-transition", "-webkit-transition", "-webkit-box-shadow" and "-moz-box-shadow" are ignored.
+* Re-testing after these fixes gave a **PASS**.
 
 ### Responsiveness
 
@@ -220,6 +226,30 @@ CSS code has been tested using the [CSS validator](http://jigsaw.w3.org/css-vali
 * Responsiveness is quite good going from mobile to larger screens and navbar collapses predictably.
 * The back to top button suggested by my mentor makes returning to the top of the screen straight-forward and intuitive.
 * Some of the propotioning on images could be improved with media queries but overall the test is a **PASS**.
+
+<details>
+  <summary>Responsiveness of the design was tested using Chrome's Developer Tools and the result overall was a **PASS**. Open the dropdown here to see screenshots of the results.</summary>
+
+#### Summary of responsive design tests
+
+* Full Screen 24” Browser Window – Google Chrome – No Issues - **PASS**
+  * Result: ![Responsive test Fullscreen](wireframes/ace-responsive-fullscreen.jpg)
+  * iPhone 6/7/8 – Slight shift in page top and bottom cut off when scrolling - **PASS**
+  * Result: ![Responsive test iPhone 6/7/8](wireframes/ace-responsive-iphone678.jpg)
+  * iPhone 6/7/8 Plus – Slight shift in page top and bottom cut off when scrolling - **PASS**
+  * Result: ![Responsive test iPhone 6/7/8 Plus](wireframes/ace-responsive-iphone678plus.jpg)
+  * iPhone X – Slight shift in page top and bottom cut off when scrolling - **PASS**
+  * Result: ![Responsive test iPhone X](wireframes/ace-responsive-iphonex.jpg)
+  * iPad – ~48px shift in page top and bottom cut off when scrolling - **PASS**
+  * Result: ![Responsive test iPad](wireframes/ace-responsive-ipad.jpg)
+  * iPad Pro – Slight shift in page top and bottom cut off when scrolling - **PASS**
+  * Result: ![Responsive test iPad Pro](wireframes/ace-responsive-ipadpro.jpg)
+  * Surface Duo – Slight shift in page top and bottom cut off when scrolling - **PASS**
+  * Result: ![Responsive test Surface Duo](wireframes/ace-responsive-surfacepro.jpg)
+  * Galaxy Fold – Slight shift in page top and bottom cut off when scrolling - **PASS**
+  * Result: ![Responsive test Galaxy Fold](wireframes/ace-responsive-galaxyfold.jpg)
+
+</details>
 
 ### Design
 
@@ -240,9 +270,9 @@ pre-header with easily accessible contact details. Rich dark greys are paired wi
 <details>
   <summary>User stories were tested using Google Chrome and developer tools. The only item of note which could be described as noteable sub-par would be the loading speed which needs improvement. Click dropdown to see individual tests.</summary>
   
-  #### Summary of user tests
+#### Summary of user tests
 
-  * Test: As a **user**, I want to see all the main services this company can offer at a glance so that in a single scroll of the homepage, I know exactly what this company has to offer.
+* Test: As a **user**, I want to see all the main services this company can offer at a glance so that in a single scroll of the homepage, I know exactly what this company has to offer.
   * Result: ![User test image 1](wireframes/ace-user-story-1.jpg)
   * Test: As a **user**, I want **fast loading-times** for pages.
   * Result: ![User test image 2](wireframes/ace-user-story-2.jpg)
@@ -256,8 +286,8 @@ pre-header with easily accessible contact details. Rich dark greys are paired wi
   * Result: ![User test image 6](wireframes/ace-user-story-6.jpg)
   * Test: As a **user**, I want to be able to **contact** the site owner and give a simple description of a potential project.
   * Result: ![User test image 7](wireframes/ace-user-story-7.jpg)
-</details>
 
+</details>
 
 ## Bugs
 
@@ -293,7 +323,6 @@ from [gomakethings.com](https://gomakethings.com/how-to-prevent-anchor-links-fro
 ---
 
 The site has been deployed on [GitHub Pages](https://pages.github.com/) with under the following link [Ace Engineering Services](https://starrant.github.io/ace-engineering-services/index.html).
-
 
 ## Credits
 
